@@ -1,7 +1,6 @@
-# Zoho_Placement_Training
+# Zoho_Placement_Training #
 
-
-1.ATM Command Line Application Using Java 
+##1.ATM Command Line Application Using Java 
 
 
  Welcome to ATM
