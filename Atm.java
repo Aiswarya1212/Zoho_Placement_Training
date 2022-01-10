@@ -119,7 +119,7 @@ public class Atm {
     // User Authentication
     public static void User_Login() {
         int k = 1;
-        while (atm[Current_User].User_attempt <= 3 && k != 0) {
+        while (atm[Current_User].User_attempt < 3 && k != 0) {
             System.out.print("\033[H\033[2J");
             System.out.print("\t Welcome User Panel \nEnter the User Id : ");
             String User_Id = sc.next();
@@ -127,7 +127,7 @@ public class Atm {
             System.out.print("\nEnter the User Password : ");
             String User_Password = sc.next();
             sc.nextLine();
-            for (int i = 0; i <= 3; i++) {
+            for (int i = 0; i == 3; i++) {
                 // Checks the user id and Password
                 if (atm[i].User_Name.equals(User_Id) && atm[i].User_Pin.equals(User_Password)) {
                     Current_User = i;
