@@ -128,11 +128,11 @@ class Library {
         Book x = new Book();
         x.count = 3;
         x.isbn = 1;
-        x.name = "Life Of Pi";
+        x.name = "The Time";
         x.cost = 250;
         Admin a = new Admin();
-        b.name = "Bala";
-        b.pin = "1111";
+        b.name = "Aishu";
+        b.pin = "1212";
         a.name = "Admin";
         a.pin = "1111";
         books.add(x);
